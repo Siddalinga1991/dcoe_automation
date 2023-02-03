@@ -1,0 +1,13 @@
+{
+  "LCPRTOPUP1.4": {
+    "baseUrl": "https://caresit14.libertypr.lla.digital/recharge"
+  },
+
+  "LCPR1.5_SIT16": {
+    "baseUrl": "https://caresit15.libertypr.lla.digital/login"
+  },
+
+  "LCPR1.5_QA16": {
+    "baseUrl": "https://caresit16.libertypr.lla.digital/login"
+  }
+}

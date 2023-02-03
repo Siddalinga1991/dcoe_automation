@@ -1,0 +1,164 @@
+{
+  "prepaid": {
+    "data": {
+      "currentAccount": {
+        "accountType": "Prepaid",
+        "accountSubtype": "prepaid",
+        "serviceNum": "19394109670",
+        "email": "sitllaqa@mailinator.com",
+        "accountId": "31513576-31515097",
+        "displayName": "Rayappan Prepaid",
+        "firstName": "Rayappan",
+        "lastName": "",
+        "currencyCode": "$",
+        "countryCode": "PR",
+        "accountAlias": "Testbug"
+      },
+      "accounts": [
+        {
+          "accountType": "Prepaid",
+          "accountSubtype": "prepaid",
+          "serviceNum": "19394109670",
+          "email": "sitllaqa@mailinator.com",
+          "accountId": "31513576-31515097",
+          "displayName": "Rayappan Prepaid",
+          "firstName": "",
+          "lastName": "",
+          "currencyCode": "$",
+          "countryCode": "PR",
+          "accountAlias": "Testbug"
+        }
+      ]
+    },
+    "success": true,
+    "errorMsg": null
+  },
+  "postpaid": {
+    "data": {
+      "currentAccount": {
+        "accountType": "Postpaid",
+        "accountSubtype": "Postpaid",
+        "serviceNum": "17874032705",
+        "email": "keetest2203@gmail.com",
+        "accountId": "21004436-21004435",
+        "displayName": "Kee Test",
+        "firstName": "Kee",
+        "lastName": "Test",
+        "currencyCode": "$",
+        "countryCode": "PR",
+        "accountAlias": "Kee Post"
+      },
+      "accounts": [
+        {
+          "accountType": "Postpaid",
+          "accountSubtype": "Postpaid",
+          "serviceNum": "17874032705",
+          "email": "keetest2203@gmail.com",
+          "accountId": "21004436-21004435",
+          "displayName": "Kee Test",
+          "firstName": "Kee",
+          "lastName": "Test",
+          "currencyCode": "$",
+          "countryCode": "PR",
+          "accountAlias": "Kee Post"
+        }
+      ]
+    },
+    "success": true,
+    "errorMsg": null
+  },
+  "fixed": {
+    "data": {
+      "currentAccount": {
+        "accountType": "Home",
+        "accountSubtype": "Home",
+        "serviceNum": "7871230012",
+        "email": "spaceqa008@yopmail.com",
+        "accountId": "8211990010042307",
+        "displayName": "CARLEY  BURKE",
+        "firstName": "CARLEY",
+        "lastName": "Matt",
+        "currencyCode": "$",
+        "countryCode": "PR",
+        "accountAlias": "Carley Fixed"
+      },
+      "accounts": [
+        {
+          "accountType": "Home",
+          "accountSubtype": "Home",
+          "serviceNum": "7871230012",
+          "email": "spaceqa008@yopmail.com",
+          "accountId": "8211990010042307",
+          "displayName": "CARLEY  BURKE",
+          "firstName": "CARLEY",
+          "lastName": "Matt",
+          "currencyCode": "$",
+          "countryCode": "PR",
+          "accountAlias": "Carley Fixed"
+        }
+      ]
+    },
+    "success": true,
+    "errorMsg": null
+  },
+  "all3Services": {
+    "data": {
+      "currentAccount": {
+        "accountType": "Postpaid",
+        "accountSubtype": "Postpaid",
+        "serviceNum": "17874032807",
+        "email": "testing@abc.com",
+        "accountId": "21004432-21004431",
+        "displayName": "Albert Matt",
+        "firstName": "Albert",
+        "lastName": "Matt",
+        "currencyCode": "$",
+        "countryCode": "PR",
+        "accountAlias": ""
+      },
+      "accounts": [
+        {
+          "accountType": "Postpaid",
+          "accountSubtype": "Postpaid",
+          "serviceNum": "17874032807",
+          "email": "testing@abc.com",
+          "accountId": "21004432-21004431",
+          "displayName": "Albert Matt",
+          "firstName": "Albert",
+          "lastName": "Matt",
+          "currencyCode": "$",
+          "countryCode": "PR",
+          "accountAlias": ""
+        },
+        {
+          "accountType": "Prepaid",
+          "accountSubtype": "Prepaid",
+          "serviceNum": "17874032328",
+          "email": "kannechee1@gmail.com",
+          "accountId": "31003230-31003224",
+          "displayName": "Kanne Chee",
+          "firstName": "Kanne",
+          "lastName": "Chee",
+          "currencyCode": "$",
+          "countryCode": "PR",
+          "accountAlias": "TestPrepaid"
+        },
+        {
+          "accountType": "Home",
+          "accountSubtype": "Home",
+          "serviceNum": "7871230012",
+          "email": "spaceqa008@yopmail.com",
+          "accountId": "8211990010042356",
+          "displayName": "CARLEY  BURKE",
+          "firstName": "CARLEY",
+          "lastName": "Matt",
+          "currencyCode": "$",
+          "countryCode": "PR",
+          "accountAlias": ""
+        }
+      ]
+    },
+    "success": true,
+    "errorMsg": null
+  }
+}

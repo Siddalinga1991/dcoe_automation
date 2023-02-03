@@ -1,0 +1,156 @@
+{
+  "fixed": {
+    "data": {
+      "packages": [
+        {
+          "name": {
+            "en-US": "ESP HUB- 40/4MB - PRUS",
+            "es-ES": "ESP HUB- 40/4MB - PRUS"
+          },
+          "children": [
+            {
+              "name": {
+                "en-US": "IPTV BOX",
+                "es-ES": "IPTV BOX"
+              },
+              "logo": "cube-outline"
+            },
+            {
+              "name": {
+                "en-US": "CONNECT BOX",
+                "es-ES": "CONNECT BOX"
+              },
+              "logo": "cube-outline"
+            },
+            {
+              "name": {
+                "en-US": "INTERNET 40/4 MB",
+                "es-ES": "INTERNET 40/4 MB"
+              },
+              "logo": "wifi-outline"
+            },
+            {
+              "name": {
+                "en-US": "BC + ESPANOL DE PRIMERA",
+                "es-ES": "BC + ESPANOL DE PRIMERA"
+              },
+              "logo": "tv-outline"
+            },
+            {
+              "name": {
+                "en-US": "PR-US UNLIMITED",
+                "es-ES": "PR-US UNLIMITED"
+              },
+              "logo": "call-outline"
+            }
+          ]
+        }
+      ]
+    },
+    "success": true,
+    "errorMsg": null
+  },
+  "prepaid": {
+    "data": {
+      "packages": [
+        {
+          "name": {
+            "en-US": "Prepaid 4GB",
+            "es-ES": "Prepago 4GB"
+          },
+          "children": [
+            {
+              "name": {
+                "en-US": "4GB",
+                "es-ES": "4GB"
+              },
+              "logo": "cellular-outline"
+            },
+            {
+              "name": {
+                "en-US": "Stream Saver",
+                "es-ES": "Streaming"
+              },
+              "logo": "streaming-outline"
+            },
+            {
+              "name": {
+                "en-US": "Talk and Text",
+                "es-ES": "Llamadas y SMS incluido"
+              },
+              "logo": "chatbubble-ellipses-outline"
+            }
+          ]
+        },
+        {
+          "name": {
+            "en-US": "Prepaid Unlimited",
+            "es-ES": "Prepago Ilimitado"
+          },
+          "children": [
+            {
+              "name": {
+                "en-US": "Unlimited",
+                "es-ES": "Unlimited"
+              },
+              "logo": "cellular-outline"
+            },
+            {
+              "name": {
+                "en-US": "Stream Saver",
+                "es-ES": "Streaming"
+              },
+              "logo": "streaming-outline"
+            },
+            {
+              "name": {
+                "en-US": "Talk and Text",
+                "es-ES": "Llamadas y SMS incluido"
+              },
+              "logo": "chatbubble-ellipses-outline"
+            }
+          ]
+        },
+        {
+          "name": {
+            "en-US": "Add On",
+            "es-ES": "Add on"
+          },
+          "children": [
+            {
+              "name": {
+                "en-US": "Add-On Data Plan",
+                "es-ES": "Add-On Plan de datos"
+              },
+              "logo": "cellular-outline"
+            },
+            {
+              "name": {
+                "en-US": "Add-On Roaming Plan",
+                "es-ES": "Add-On Plan de Roaming"
+              },
+              "logo": "streaming-outline"
+            },
+            {
+              "name": {
+                "en-US": "Add-On Plan calls",
+                "es-ES": "Add-On Plan llamadas"
+              },
+              "logo": "chatbubble-ellipses-outline"
+            },
+
+            {
+              "name": {
+                "en-US": "Add-On Cloud Plan",
+                "es-ES": "Add-On Plan de la nube"
+              },
+              "logo": "chatbubble-ellipses-outline"
+            }
+          ]
+        }
+      ]
+    },
+    "success": true,
+    "errorMsg": null
+  }
+}

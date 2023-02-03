@@ -1,0 +1,101 @@
+
+{
+    "usages": {
+        "data": [
+            
+            {
+                "group": "Data",
+                "allowanceUsages": [
+                    {
+                        "name": "",
+                        "summaryFields": [
+                            {
+                                "value": "9000 GB",
+                                "label": "Data "
+                            }
+                        ],
+                        "unlimited": true,
+                        "expiry": "2023-02-01T00:00:00",
+                        "additionalFields": [
+                            {
+                                "value": "10000 GB",
+                                "label": "Allowance Amount:"
+                            },
+                            {
+                                "value": "0 GB",
+                                "label": "Overage Amount:"
+                            },
+                            {
+                                "value": "0 GB",
+                                "label": "Charges Amount:"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "group": "Text",
+                "allowanceUsages": [
+                    {
+                        "name": "",
+                        "summaryFields": [
+                            {
+                                "value": "100 MSG",
+                                "label": "Text "
+                            }
+                        ],
+                        "unlimited": true,
+                        "expiry": "2023-02-01T00:00:00",
+                        "additionalFields": [
+                            {
+                                "value": "1000 MSG",
+                                "label": "Allowance Amount:"
+                            },
+                            {
+                                "value": "0 MSG",
+                                "label": "Overage Amount:"
+                            },
+                            {
+                                "value": "0 MSG",
+                                "label": "Charges Amount:"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "group": "Voice",
+                "allowanceUsages": [
+                    {
+                        "name": "",
+                        "summaryFields": [
+                            {
+                                "value": "99999 MIN remaining",
+                                "label": "Voice "
+                            }
+                        ],
+                        "unlimited": true,
+                        "expiry": "2023-02-01T00:00:00",
+                        "additionalFields": [
+                            {
+                                "value": "999999 MIN",
+                                "label": "Allowance Amount:"
+                            },
+                            {
+                                "value": "0 MIN",
+                                "label": "Overage Amount:"
+                            },
+                            {
+                                "value": "0 MIN",
+                                "label": "Charges Amount:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+    
+        "success": true,
+        "errorMsg": null
+    }
+}

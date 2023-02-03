@@ -1,0 +1,80 @@
+{
+    "failedtranscation": {
+        "data": null,
+        "success": false,
+        "errorMsg": "Error log from server: 52 | Gateway Rejected: duplicate. Failed with transaction.status=GATEWAY_REJECTED"
+    },
+    "transactiondecline": {
+        "data": null,
+        "success": false,
+        "errorMsg": "Error log from server: 52 | Gateway Rejected: duplicate. Failed with transaction.status=TRANSACTION_DECLINED"
+    },
+    "stolen": {
+        "data": {
+            "status": "Lost-Stolen-Suspend"
+        },
+        "success": true,
+        "errorMsg": null
+    },
+    "cancel": {
+        "data": {
+            "status": "Cancel"
+        },
+        "success": true,
+        "errorMsg": null
+    },
+    "savedAccounts": {
+        "data": [
+            {
+                "user_id": "31513576-31515097",
+                "account_number": "",
+                "account_alias": "Ani",
+                "account_type": "Prepaid",
+                "service_number": "17874032202",
+                "saved_linked": "saved"
+            },
+            {
+                "user_id": "31513576-31515097",
+                "account_number": "",
+                "account_alias": "Test data",
+                "account_type": "Prepaid",
+                "service_number": "17874032207",
+                "saved_linked": "saved"
+            },
+            {
+                "user_id": "31513576-31515097",
+                "account_number": "",
+                "account_alias": "Aravind ",
+                "account_type": "Prepaid",
+                "service_number": "17874032208",
+                "saved_linked": "saved"
+            },
+            {
+                "user_id": "31513576-31515097",
+                "account_number": "",
+                "account_alias": "Bugggggg",
+                "account_type": "Prepaid",
+                "service_number": "17874032209",
+                "saved_linked": "saved"
+            },
+            {
+                "user_id": "31513576-31515097",
+                "account_number": "",
+                "account_alias": "Hello3",
+                "account_type": "Prepaid",
+                "service_number": "17874032224",
+                "saved_linked": "saved"
+            },
+            {
+                "user_id": "31513576-31515097",
+                "account_number": "",
+                "account_alias": "mahesh55",
+                "account_type": "Prepaid",
+                "service_number": "19394109670",
+                "saved_linked": "linked"
+            }
+        ],
+        "success": true,
+        "errorMsg": null
+    }
+}

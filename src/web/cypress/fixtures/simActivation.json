@@ -1,0 +1,12 @@
+{
+    "systemError": {
+        "data": false,
+        "success": true,
+        "errorMsg": null
+    },
+    "activationSuccess": {
+        "data": true,
+        "success": true,
+        "errorMsg": null
+    }
+}

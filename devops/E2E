@@ -1,0 +1,77 @@
+pipeline {
+	agent {
+        kubernetes {
+            cloud 'kubernetes'
+            defaultContainer "agent"
+            yaml """
+apiVersion: v1
+kind: Pod
+spec:
+  affinity:
+    nodeAffinity:
+      preferredDuringSchedulingIgnoredDuringExecution:
+      - preference:
+          matchExpressions:
+          - key: jenkins
+            operator: In
+            values:
+            - agent1
+        weight: 1
+  containers:
+  - name: agent
+    image: 712965751785.dkr.ecr.us-east-1.amazonaws.com/jenkins_agent:latest
+    command: ['cat']
+    tty: true
+    volumeMounts:
+    - name: dockersock
+      mountPath: /var/run/docker.sock
+  volumes:
+  - name: dockersock
+    hostPath:
+      path: /var/run/docker.sock
+  nodeSelector:
+        jenkins: agent1    
+"""
+        }
+    }
+    
+    tools {
+                nodejs "nodejs"
+        }
+parameters {
+        choice(name: 'environment', choices:"SIT\nUAT\nDEV\n", description: "Environment" )
+		choice(name: 'platform', choices:"Web\nApp", description: "Platform" )
+		choice(name: 'feature', choices:"Register\n", description: "Feature" )
+ }
+stages {
+stage("SCM Checkout"){
+        steps {
+        git branch: 'develop', credentialsId: 'github_credentials', url: 'https://github.com/LLA-io/LLA-Care-Automation'
+       }
+    }
+stage("Install node modules"){
+  steps{
+    sh "yarn install"
+  }
+}
+
+stage("Test") {
+    steps {
+              script {
+       
+      if("${params.environment}" == "SIT") {
+             if ("${params.platform}" == "Web" && "${params.feature}" == "Register"){						
+                        sh '''
+                          npx cypress run --spec src/web/cypress/e2e/lcpr/registration/*.cy.js
+                           ''' 
+                     }
+              
+        }
+}
+       }
+ 
+
+}
+}
+
+}

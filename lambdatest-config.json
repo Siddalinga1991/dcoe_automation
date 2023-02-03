@@ -1,0 +1,37 @@
+{
+  "lambdatest_auth": {
+    "username": "sathishkumar.a",
+    "access_key": "ZCjoIKN01Z90C87sGcbzt0ADikzHoDoja6U2JTrqIy2AaHZHEn"
+  },
+  "browsers": [
+    {
+      "browser": "Chrome",
+      "platform": "Windows 10",
+      "versions": ["latest"]
+    },
+    {
+      "browser": "Firefox",
+      "platform": "Windows 10",
+      "versions": ["latest"]
+    },
+    {
+      "browser": "Chrome",
+      "platform": "MacOS Monterey",
+      "versions": ["latest"]
+    }
+  ],
+  "run_settings": {
+    "downloads": "./cypress/results/mochawesome",
+    "reporter_config_file": "base_reporter_config.json",
+    "build_name": "LCPR_V1.5",
+    "parallels": 1,
+    "specs": "src/web/cypress/e2e/lcpr/**/**/*.js",
+    "ignore_files": "src/mobile/**/*,reports/**/*",
+    "network": false,
+    "headless": false
+  },
+  "tunnel_settings": {
+    "tunnel": false,
+    "tunnel_name": null
+  }
+}

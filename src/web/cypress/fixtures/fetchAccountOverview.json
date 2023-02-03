@@ -1,0 +1,49 @@
+{
+    "prepaid": {
+            "data": {
+                "prepaidBalance": 245.9,
+                "balanceExpiry": "2023-01-03T00:00:00+00:00",
+                "isBalanceLow": false,
+                "billingAddr": "110 Calle del Parque-PR-San Juan-US-00911",
+                "billCategory": "AUTO PAY",
+                "billAutoPayDate": "",
+                "serviceNum": "19394109670",
+                "displayName": "Rayappan Prepaid"
+            },
+            "success": true,
+            "errorMsg": null
+        },
+        "postpaid": {
+            "data": {
+                "billDueDate": "2023-01-03T00:00:00+00:00",
+                "outstandingBal": 88.39,
+                "accountId": "21004436-21004435",
+                "lastBillAmt": 11,
+                "billCategory": "AUTO PAY",
+                "displayName": "Kee Test",
+                "email": "keetest2203@gmail.com",
+                "billingAddr": "1515 Avenida Franklin Delano Roosevelt",
+                "serviceNum": "17874032705",
+                "eBillFlag": "eBill disabled",
+                "billAutoPayDate": "2023-01-03",
+                "billingAddress": {
+                    "address1": "1515 Avenida Franklin Delano Roosevelt",
+                    "city": "San Juan",
+                    "country": "US"
+                }
+            },
+            "success": true,
+            "errorMsg": null
+        },
+        "fixed": {
+            "data": {
+                "billDueDate": "2023-01-21T00:00:00.000Z",
+                "outstandingBal": 112.12,
+                "accountId": "8211990010042307",
+                "lastBillAmt": 112.12,
+                "billCategory": "normal"
+            },
+            "success": true,
+            "errorMsg": null
+        }
+}

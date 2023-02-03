@@ -1,0 +1,19 @@
+{
+    "alreadyLinked": {
+            "data": {
+                "statusCode": 103,
+                "statusMessage": "Account already linked"
+            },
+            "success": true,
+            "errorMsg": null
+    },
+    "linkAccount": {
+            "data": {
+                "statusCode": 0,
+                "statusMessage": "OK",
+                "UID": "156f96ec6622418b8fee97256cbaa780"
+            },
+            "success": true,
+            "errorMsg": null
+        }
+}

@@ -1,0 +1,12 @@
+{
+    "RecoverySuccess": {
+        "data": {
+          "email": "change1@mailinator.com"
+        },
+        "success": true,
+        "errorMsg": null
+    },
+    "Congratulations": {
+      "data":{},"success":true,"errorMsg":null
+    }
+}

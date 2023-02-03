@@ -1,0 +1,38 @@
+
+{
+    "passwordPending": {
+        "data": {
+            "errorCode": 403100
+        },
+        "success": true,
+        "errorMsg": null
+    },
+    "systemError": {
+        "data": {
+            "errorCode": 406042
+        },
+        "success": true,
+        "errorMsg": null
+    },
+    "failedAttempts": {
+        "data": {
+            "errorCode": 403120
+        },
+        "success": true,
+        "errorMsg": null
+    },
+    "disableAccounts": {
+        "data": {
+            "errorCode": 403041
+        },
+        "success": true,
+        "errorMsg": null
+    },
+    "verificationPending": {
+        "data": {
+            "errorCode": 206002
+        },
+        "success": true,
+        "errorMsg": null
+    }
+}

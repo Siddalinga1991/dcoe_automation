@@ -1,0 +1,36 @@
+{
+    "prepaidAccount": {
+        "data": {
+            "currentAccount": {
+                "accountType": "Prepaid",
+                "accountSubtype": "prepaid",
+                "serviceNum": "19394109670",
+                "email": "sitllaqa@mailinator.com",
+                "accountId": "31513576-31515097",
+                "displayName": "Rayappan R. Prepaid",
+                "firstName": "",
+                "lastName": "",
+                "currencyCode": "$",
+                "countryCode": "PR",
+                "accountAlias": "Alias"
+            },
+            "accounts": [
+                {
+                    "accountType": "Prepaid",
+                    "accountSubtype": "prepaid",
+                    "serviceNum": "19394109670",
+                    "email": "sitllaqa@mailinator.com",
+                    "accountId": "31513576-31515097",
+                    "displayName": "Rayappan R. Prepaid",
+                    "firstName": "",
+                    "lastName": "",
+                    "currencyCode": "$",
+                    "countryCode": "PR",
+                    "accountAlias": "Alias"
+                }
+            ]
+        },
+        "success": true,
+        "errorMsg": null
+    }
+}

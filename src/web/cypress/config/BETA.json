@@ -1,0 +1,8 @@
+{
+    "LCPR": {
+        "baseUrl": "https://carebeta3.libertypr.lla.digital"
+    },
+    "LCPRTOPUP1.4": {
+        "baseUrl": "https://carebeta14.libertypr.lla.digital/recharge"
+    }
+}

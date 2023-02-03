@@ -1,0 +1,32 @@
+export const loginDetails = {
+  userName1: "carev13@yopmail.com",
+  password1: "We@123",
+  userName2: "qatest1@mailinator.com",
+  password2: "Welcome@12",
+  userName3: "rdtest123@yopmail.com",
+  password3: "We@123",
+  userName4: "shubhangi.d@prodapt.com",
+  password4: "Welcome@99",
+  userName5: "sitllaqa@mailinator.com",
+  password5: "Lla@12345",
+  unlinkedEmailAddress: "sandeep.k@prodapt.com",
+  password6: "Register123!",
+};
+export const accountDetails = {
+  validAccountNumber1: "8211990010042356",
+  validSSN1: "0012",
+  validAccountNumber2: "8211990010042372",
+  validSSN2: "0014",
+  registeredEmail1: "carev13@yopmail.com",
+  registeredEmail2: "qatest1@mailinator.com",
+  registeredEmail3: "rdtest123@yopmail.com",
+  registeredEmail4: "sitllaqa@mailinator.com",
+  registeredMobileNo: "7874032232",
+  pinNumber: "1234",
+  unlinkedAccountNumber: "8211990010042356",
+  unlinkedAccountSSN: "0012",
+  passwordForRegistration: "We@123",
+  unlinkedEmailAddress: "lcprcareqatest@mailinator.com",
+  unlinkedMobileNumber: "8769534521",
+};
+export const loginByAccount = {};
